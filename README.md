@@ -1,11 +1,11 @@
-About sqeleton
-==============
+About sqeleton-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqeleton-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/datafold/sqeleton
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sqeleton-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python library for querying SQL databases
 
