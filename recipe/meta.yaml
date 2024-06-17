@@ -20,14 +20,16 @@ requirements:
   host:
     - pip
     - poetry-core >=1.0.0
-    - python >=3.7,<4.0
+    - python >=3.8,<4.0
   run:
-    - python >=3.7,<4.0
-    - click >=8.1,<9.0
+    - python >=3.8,<4.0
+    - runtype >=0.4.2,<0.5.0
     - dsnparse
+    - click >=8.1,<9.0
     - rich
-    - runtype >=0.2.6,<0.3.0
     - toml >=0.10.2,<0.11.0
+    # Needed for CLI
+    - prompt_toolkit >=3.0.36,<4.0.0
 
 test:
   imports:
@@ -39,8 +41,9 @@ test:
     - pip
 
 about:
-  home: https://github.com/datafold/sqeleton
+  home: https://github.com/erezsh/sqeleton
   summary: Python library for querying SQL databases
+  doc_url: https://sqeleton.readthedocs.io/en/latest/
   license: MIT
   license_file: LICENSE
 
