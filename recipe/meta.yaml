@@ -1,5 +1,5 @@
 {% set name = "sqeleton" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sqeleton-{{ version }}.tar.gz
-  sha256: 98dc1aa0c6b2b54bb14b9fa937ae3d53c92c1bf58f8f9c5a37689dc9285534dc
+  sha256: 2b0fd6330129a4280eff3b8f2f6dee73619a6dc13d95045ce72a549c2a04219c
 
 build:
   entry_points:
